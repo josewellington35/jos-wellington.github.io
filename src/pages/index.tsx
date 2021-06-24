@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-
 export default function Home() {
   return (
     <div className="container">
@@ -15,7 +14,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Deixe o seu código <code> pages/index.js </code>
+          Deixe o seu código no GitHub <code> pages/index.js </code>
         </p>
 
         <div className="grid">
@@ -61,9 +60,6 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        
-
-       
         #particles-container {
           position: absolute;
           width: 100%;
